@@ -14,7 +14,12 @@ We will post all scripts related to bioinformatics [**here**](https://github.com
 
 - Data retrievel (Soon to become automated)
 - Quality Control
-- 
+- Seperation of Eukaryotes and Prokaryotes
+- Assembly from reads to contigs
+- Microbial profiling with KAIJU
+- Genome-resolved Metagenomics
+- Recovering biosynthetic gene clusters (BGCs)
+- Mining for antibacterial resistance genes (ARGs)
 
 ## Analysis
 We will post all scripts related to analysis [**here**](https://github.com/JacobAgerbo/blueMAGIC/tree/main/02_Analysis), including: 
