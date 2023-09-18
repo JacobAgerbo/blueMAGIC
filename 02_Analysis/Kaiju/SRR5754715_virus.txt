@@ -1,0 +1,8 @@
+	Viruses, Artverviricota, Ortervirales, Revtraviricetes, Metaviridae, NA, 1
+	Viruses, NA, NA, NA, NA, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Myoviridae, Ficleduovirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, NA, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Podoviridae, Fipvunavirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Podoviridae, Lightbulbvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Podoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, NA, 1

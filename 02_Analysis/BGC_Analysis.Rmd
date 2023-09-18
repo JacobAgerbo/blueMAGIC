@@ -1,0 +1,269 @@
+---
+title: "BGC Analysis from Marine Metagenomes"
+author: "Jacob Agerbo Rasmussen"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r lib load, echo=FALSE, warning=FALSE}
+library(wesanderson)   # Color palettes inspired by Wes Anderson movies.
+library(ggfortify)     # Extends ggplot2 with various statistical models.
+library(ggplot2)       # Powerful package for creating graphics and visualizations.
+library(readr)         # Fast and convenient tools for reading structured data files.
+library(readxl)        # Reading data from Excel files.
+library(ggpubr)        # Publication-ready plots.
+library(hilldiv)       # Hill numbers and other diversity measures.
+library(tidyverse)
+library(ggtext)
+library(cowplot)
+library(ggpubr)
+library(vegan)
+```
+```{r load metadata, echo=FALSE, warning=FALSE}
+# Loading metadata of all samples
+md <- read_excel("md_marine_metagenomes.xlsx", sheet = "Pilot")
+```
+
+```{r Bacteria data load, warning=FALSE,echo=FALSE, include=FALSE}
+# Setting the path for the data files
+path <- "./BGCs/"
+
+# Getting the file names
+sample <- sort(list.files(path, pattern=".bgc.tsv", full.names = TRUE))
+
+df.list <- lapply(sample, function(i) read.delim(i, sep = "\t", header = TRUE)[, c(13,28)])
+
+# Assigning sample names to the ARG coverage data
+names(df.list) <- sub("\\.bgc\\.tsv", "", basename(sample))
+
+# loop through each dataset and add a column with 1
+for (i in seq_along(df.list)) {
+  df.list[[i]]$Count <- 1
+}
+
+# Ensure data structure is similar across all dataframes
+# Filter the list to only keep dataframes with even columns
+df.list <- Filter(function(x) ncol(x) == 3, df.list)
+
+# Loop through each dataframe in the list and aggregate on the column
+for (i in seq_along(df.list)) {
+  df.list[[i]] <- df.list[[i]] %>%
+    group_by(pfam_ids) %>%
+    dplyr::summarise(Total = sum(as.numeric(Count)))
+}
+
+
+# get sample names for successful samples
+samples <- names(df.list)
+
+#
+BGC_table <- purrr::reduce(df.list, dplyr::full_join, by = "pfam_ids")
+colnames(BGC_table) <- c("BGC", samples)
+
+BGC_table <- BGC_table %>% 
+  as_tibble() %>%
+  column_to_rownames(var = "BGC")
+
+BGC_table[is.na(BGC_table)] <- 0
+BGC_table <- ifelse(BGC_table > 0, 1, 0)
+md <- md %>%
+  filter(Run %in% samples)
+```
+
+```{r Summary}
+# Classified Bacteria
+BGC_Summary <- data.frame(BGCs = rownames(BGC_table),
+                          Prevalence = round(rowSums(BGC_table)/ncol(BGC_table),2)) %>%
+  arrange(-Prevalence)
+
+sum(BGC_Summary$Prevalence > 0.75)
+```
+
+```{r check collectors curve, echo=FALSE, warning=FALSE}
+# Set a seed for reproducibility
+set.seed(1234)
+Bac_table.norm <- sweep(t(BGC_table),2,md$Bytes, "/") * 10^11
+Bac_table.norm <- Bac_table.norm %>%
+  t() %>%
+  as_tibble()
+Bac_table.norm <- round(Bac_table.norm,0)
+rownames(Bac_table.norm) <- rownames(BGC_table)
+# Reshape the ARG_table to long format
+collecors.data <- reshape2::melt(t(Bac_table.norm))
+
+# Define a function to collect data for a specific group
+collect <- function(data, group){
+  data %>%
+    filter(Var1 == group) %>%
+    uncount(value) %>%
+    sample_n(n()) %>%
+    mutate(observation = row_number()) %>%
+    arrange(Var2, observation) %>%
+    group_by(Var2) %>%
+    mutate(distinct = row_number() == 1) %>%
+    ungroup() %>%
+    arrange(observation) %>%
+    mutate(s = cumsum(distinct)) %>%
+    select(observation, s) 
+}
+
+# Remove rows with NA values from collecors.data
+collecors.data <- na.omit(collecors.data)
+
+# Create an empty list for storing plots
+curve_list <- list()
+rare_list <- list()
+# Select 4 random samples
+random_sample_list <- sample_n(collecors.data, size = 10) %>%
+  select(Var1) 
+random_sample_list <- random_sample_list$Var1 %>%
+  as.character()
+
+# Iterate over the selected random samples
+for (i in random_sample_list){
+  sample <- i
+  
+  # Generate curves for collecting ARGs
+  collect_curves <- map_dfr(1:5, ~collect(collecors.data, sample), .id = "iteration")
+  
+  # Calculate rarefaction curve
+  rarefraction_curve <- collect_curves %>%
+    group_by(observation) %>%
+    summarize(
+      r = mean(s)
+    )
+  curve_list[[i]] <- collect_curves
+  rare_list[[i]] <- rarefraction_curve
+}
+
+ # Create and store the plot for the current sample
+Collectors_curve <- ggplot() + 
+    geom_line(aes(x = observation, y = s, group = iteration),color = "grey70", alpha = 0.5, linewidth = 1.5, data = curve_list[[1]]) +
+    geom_line(data = rare_list[[1]], 
+              aes(x = observation, y = r), linewidth = 1.0, color = "grey20", alpha = 0.95, inherit.aes = FALSE) +
+    geom_line(aes(x = observation, y = s, group = iteration),color = "grey70", alpha = 0.5, linewidth = 1.5, data = curve_list[[2]]) +
+    geom_line(data = rare_list[[2]], 
+              aes(x = observation, y = r), linewidth = 1.0, color = "grey20", alpha = 0.95, inherit.aes = FALSE) +
+    geom_line(aes(x = observation, y = s, group = iteration),color = "grey70", alpha = 0.5, linewidth = 1.5, data = curve_list[[3]]) +
+    geom_line(data = rare_list[[3]], 
+              aes(x = observation, y = r), linewidth = 1.0, color = "grey20", alpha = 0.95, inherit.aes = FALSE) +
+    geom_line(aes(x = observation, y = s, group = iteration),color = "grey70", alpha = 0.5, linewidth = 1.5, data = curve_list[[4]]) +
+    geom_line(data = rare_list[[4]], 
+              aes(x = observation, y = r), linewidth = 1.0, color = "grey20", alpha = 0.95, inherit.aes = FALSE) +
+    geom_line(aes(x = observation, y = s, group = iteration),color = "grey70", alpha = 0.5, linewidth = 1.5, data = curve_list[[5]]) +
+    geom_line(data = rare_list[[5]], 
+              aes(x = observation, y = r), linewidth = 1.0, color = "grey20", alpha = 0.95, inherit.aes = FALSE) +
+    xlab("Observations") +
+    ylab("Observed No. BGC") +
+    theme_light() + 
+    ggtitle("Collectors curves")
+      
+```
+```{r - plot BGCs}
+#pdf("Collector_curve_BGC.pdf", height = 4, width = 6)
+Collectors_curve
+#dev.off()
+```
+
+
+```{r BGC -map, fig.height=8, fig.width=16}
+BGC_counts <- data.frame("Run" = samples, "q0"=hill_div(BGC_table, qvalue = 0))
+Lat_Long <- md %>%
+  select(Run,Latitude,Longitude)
+
+df <- full_join(BGC_counts, Lat_Long, by = "Run")
+df$Latitude <- as.numeric(df$Latitude)
+df$Longitude <- as.numeric(df$Longitude)
+
+world_map = map_data("world") %>% filter(! long > 180)
+countries = world_map %>% 
+  distinct(region) %>% 
+  rowid_to_column()
+
+  
+ggplot() +
+  geom_map(
+    data = world_map, map = world_map,
+    aes(long, lat, map_id = region),
+    fill = "grey50") +
+  expand_limits(x = world_map$long, y = world_map$lat) +
+  coord_map("moll") +
+  labs(color = "Richness",
+       shape = "Type") +
+  theme_map() +
+  geom_jitter(aes(x = Longitude, y=Latitude, 
+                     color = q0,
+                    fill = q0,
+                     stroke = 0.0), size = 15, 
+             alpha = 0.75, 
+             data = df, 
+             inherit.aes = FALSE,
+             width = 0.8,
+             height = 1) +
+  scale_color_gradientn(colours = c(wes_palette("Zissou1", 500, type = "continuous")), na.value = "black")  +
+  scale_size(range = c(1,10)) + 
+  guides(fill="none")
+```
+
+```{r Make correspondance analysis}
+# Perform the correspondence analysis
+res.ca <- ade4::dudi.coa(dist(t(BGC_table), method = "binary"), scannf = FALSE, nf = 2)
+scores <- as.data.frame(res.ca$li) %>%
+  rownames_to_column(var = "Run")
+colnames(scores) <- c("Run","Dim.1", "Dim.2")
+
+scores <- full_join(scores, md, by= "Run")
+ 
+# Calculate the proportion of variance explained by each axis
+per_var_explained <- res.ca$eig / sum(res.ca$eig)*100
+
+CA.depth <- ggplot(scores, aes(x = Dim.1, y = Dim.2,
+                   color = Bytes)) +
+  geom_jitter(size = 5, alpha = 0.75) +
+ xlab(paste("Dimension 1 (",round(per_var_explained[1],2)," %)", sep = "")) +
+ ylab(paste("Dimension 2 (",round(per_var_explained[2],2)," %)", sep = "")) +
+  ggtitle("Sequencing Depth") +
+  theme_minimal() + 
+  viridis::scale_color_viridis(option = "A") +
+  theme(legend.position = "left")
+
+scores <- scores %>%
+  mutate(Location = geo_loc_name_country_continent)
+CA.Location <- ggplot(scores, aes(x = Dim.1, y = Dim.2,
+                   color = Location)) +
+  geom_jitter(size = 5, alpha = 0.75) +
+ xlab(paste("Dimension 1 (",round(per_var_explained[1],2)," %)", sep = "")) +
+ ylab(paste("Dimension 2 (",round(per_var_explained[2],2)," %)", sep = "")) +
+ ggtitle("Correspondance Analysis") +
+  theme_minimal() + 
+  scale_color_manual(values = c(wes_palette("Darjeeling1"),
+                                wes_palette("Darjeeling2"),
+                                wes_palette("Rushmore1"),
+                                wes_palette("Zissou1"))) +
+  theme(legend.position = "right")
+  
+scores$Richness <- BGC_counts$q0
+CA.Richness <- ggplot(scores, aes(x = Dim.1, y = Dim.2,
+                   color = Richness)) +
+  geom_jitter(size = 7.5, alpha = 0.75) +
+ xlab(paste("Dimension 1 (",round(per_var_explained[1],2)," %)", sep = "")) +
+ ylab(paste("Dimension 2 (",round(per_var_explained[2],2)," %)", sep = "")) +
+  ggtitle("Bacterial Richness") +
+  theme_minimal() +
+  theme(legend.position = "right")+
+  viridis::scale_color_viridis(option = "A")
+  
+p1 <- cowplot::plot_grid(CA.depth,CA.Richness)
+
+CA.plot <- cowplot::plot_grid(CA.Location,p1, rel_heights = c(0.75,0.25), ncol = 1)
+```
+
+```{r plot CA}
+#pdf("Grant_Figure_CA_plot_ARG.pdf",height = 12, width = 8)
+CA.plot
+#dev.off()
+```

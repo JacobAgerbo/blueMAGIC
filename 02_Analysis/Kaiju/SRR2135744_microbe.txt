@@ -1,0 +1,692 @@
+	Archaea, Candidatus Aenigmarchaeota, NA, NA, NA, NA, 1
+	Archaea, Candidatus Bathyarchaeota, NA, NA, NA, NA, 1
+	Archaea, Candidatus Heimdallarchaeota, NA, NA, NA, NA, 1
+	Archaea, Candidatus Lokiarchaeota, NA, NA, NA, NA, 1
+	Archaea, Candidatus Thermoplasmatota, Candidatus Poseidoniales, Candidatus Poseidoniia, NA, NA, 1
+	Archaea, Candidatus Thermoplasmatota, Methanomassiliicoccales, Thermoplasmata, NA, NA, 1
+	Archaea, Candidatus Thermoplasmatota, NA, Thermoplasmata, NA, NA, 1
+	Archaea, Candidatus Thermoplasmatota, Thermoplasmatales, Thermoplasmata, NA, NA, 1
+	Archaea, Candidatus Thorarchaeota, NA, NA, NA, NA, 1
+	Archaea, Candidatus Woesearchaeota, NA, NA, NA, NA, 1
+	Archaea, Crenarchaeota, Desulfurococcales, Thermoprotei, NA, NA, 1
+	Archaea, Crenarchaeota, NA, NA, NA, NA, 1
+	Archaea, Euryarchaeota, Methanococcales, Methanococci, Methanococcaceae, Methanococcus, 1
+	Archaea, Euryarchaeota, Methanosarcinales, Methanomicrobia, Methanosarcinaceae, Methanosarcina, 1
+	Archaea, Euryarchaeota, Methanosarcinales, Methanomicrobia, Methanotrichaceae, Methanothrix, 1
+	Archaea, Euryarchaeota, Methanosarcinales, Methanomicrobia, NA, NA, 1
+	Archaea, Euryarchaeota, NA, Candidatus Methanofastidiosa, NA, Candidatus Methanofastidiosum, 1
+	Archaea, Euryarchaeota, NA, NA, NA, NA, 1
+	Archaea, Euryarchaeota, Natrialbales, Halobacteria, Natrialbaceae, Salinarchaeum, 1
+	Archaea, Euryarchaeota, Thermococcales, Thermococci, Thermococcaceae, Thermococcus, 1
+	Archaea, NA, NA, NA, NA, NA, 1
+	Archaea, Thaumarchaeota, NA, NA, NA, Candidatus Nitrosopelagicus, 1
+	Archaea, Thaumarchaeota, NA, NA, NA, Candidatus Nitrosotenuis, 1
+	Archaea, Thaumarchaeota, NA, NA, NA, NA, 1
+	Archaea, Thaumarchaeota, Nitrosopumilales, NA, NA, NA, 1
+	Bacteria, Acidobacteria, Acidobacteriales, Acidobacteriia, Acidobacteriaceae, Granulicella, 1
+	Bacteria, Acidobacteria, Holophagales, Holophagae, Holophagaceae, Geothrix, 1
+	Bacteria, Acidobacteria, NA, NA, NA, NA, 1
+	Bacteria, Actinobacteria, Acidimicrobiales, Acidimicrobiia, Acidimicrobiaceae, NA, 1
+	Bacteria, Actinobacteria, Actinomycetales, Actinomycetia, Actinomycetaceae, Arcanobacterium, 1
+	Bacteria, Actinobacteria, Actinomycetales, Actinomycetia, NA, NA, 1
+	Bacteria, Actinobacteria, Coriobacteriales, Coriobacteriia, Atopobiaceae, Olsenella, 1
+	Bacteria, Actinobacteria, Corynebacteriales, Actinomycetia, Corynebacteriaceae, Corynebacterium, 1
+	Bacteria, Actinobacteria, Corynebacteriales, Actinomycetia, Mycobacteriaceae, Mycobacterium, 1
+	Bacteria, Actinobacteria, Corynebacteriales, Actinomycetia, Mycobacteriaceae, Mycobacteroides, 1
+	Bacteria, Actinobacteria, Corynebacteriales, Actinomycetia, Mycobacteriaceae, Mycolicibacterium, 1
+	Bacteria, Actinobacteria, Corynebacteriales, Actinomycetia, Nocardiaceae, Nocardia, 1
+	Bacteria, Actinobacteria, Corynebacteriales, Actinomycetia, Nocardiaceae, Rhodococcus, 1
+	Bacteria, Actinobacteria, Eggerthellales, Coriobacteriia, Eggerthellaceae, Adlercreutzia, 1
+	Bacteria, Actinobacteria, Micrococcales, Actinomycetia, Cellulomonadaceae, Cellulomonas, 1
+	Bacteria, Actinobacteria, Micrococcales, Actinomycetia, Microbacteriaceae, Agrococcus, 1
+	Bacteria, Actinobacteria, Micrococcales, Actinomycetia, Microbacteriaceae, Agromyces, 1
+	Bacteria, Actinobacteria, Micrococcales, Actinomycetia, Microbacteriaceae, Curtobacterium, 1
+	Bacteria, Actinobacteria, Micrococcales, Actinomycetia, Micrococcaceae, Arthrobacter, 1
+	Bacteria, Actinobacteria, Micrococcales, Actinomycetia, NA, Luteimicrobium, 1
+	Bacteria, Actinobacteria, Micrococcales, Actinomycetia, Sanguibacteraceae, Sanguibacter, 1
+	Bacteria, Actinobacteria, Micromonosporales, Actinomycetia, Micromonosporaceae, Actinoplanes, 1
+	Bacteria, Actinobacteria, Micromonosporales, Actinomycetia, Micromonosporaceae, Micromonospora, 1
+	Bacteria, Actinobacteria, Micromonosporales, Actinomycetia, Micromonosporaceae, Phytohabitans, 1
+	Bacteria, Actinobacteria, NA, Actinomycetia, NA, NA, 1
+	Bacteria, Actinobacteria, NA, NA, NA, Candidatus Hakubanella, 1
+	Bacteria, Actinobacteria, NA, NA, NA, NA, 1
+	Bacteria, Actinobacteria, Propionibacteriales, Actinomycetia, Nocardioidaceae, Nocardioides, 1
+	Bacteria, Actinobacteria, Propionibacteriales, Actinomycetia, Propionibacteriaceae, Desertihabitans, 1
+	Bacteria, Actinobacteria, Pseudonocardiales, Actinomycetia, Pseudonocardiaceae, Prauserella, 1
+	Bacteria, Actinobacteria, Pseudonocardiales, Actinomycetia, Pseudonocardiaceae, Pseudonocardia, 1
+	Bacteria, Actinobacteria, Solirubrobacterales, Thermoleophilia, Solirubrobacteraceae, Solirubrobacter, 1
+	Bacteria, Actinobacteria, Streptomycetales, Actinomycetia, Streptomycetaceae, Streptomyces, 1
+	Bacteria, Actinobacteria, Streptosporangiales, Actinomycetia, Streptosporangiaceae, Nonomuraea, 1
+	Bacteria, Actinobacteria, Streptosporangiales, Actinomycetia, Thermomonosporaceae, Actinocorallia, 1
+	Bacteria, Aquificae, Desulfurobacteriales, Aquificae, Desulfurobacteriaceae, Balnearium, 1
+	Bacteria, Atribacterota, NA, NA, NA, NA, 1
+	Bacteria, Bacteroidetes, Bacteroidales, Bacteroidia, Bacteroidaceae, Bacteroides, 1
+	Bacteria, Bacteroidetes, Bacteroidales, Bacteroidia, Dysgonomonadaceae, Dysgonomonas, 1
+	Bacteria, Bacteroidetes, Bacteroidales, Bacteroidia, Muribaculaceae, Muribaculum, 1
+	Bacteria, Bacteroidetes, Bacteroidales, Bacteroidia, Muribaculaceae, Paramuribaculum, 1
+	Bacteria, Bacteroidetes, Bacteroidales, Bacteroidia, Porphyromonadaceae, NA, 1
+	Bacteria, Bacteroidetes, Bacteroidales, Bacteroidia, Prevotellaceae, NA, 1
+	Bacteria, Bacteroidetes, Bacteroidales, Bacteroidia, Prevotellaceae, Paraprevotella, 1
+	Bacteria, Bacteroidetes, Bacteroidales, Bacteroidia, Prevotellaceae, Prevotella, 1
+	Bacteria, Bacteroidetes, Bacteroidetes Order II. Incertae sedis, NA, Rhodothermaceae, NA, 1
+	Bacteria, Bacteroidetes, Chitinophagales, Chitinophagia, Chitinophagaceae, Arachidicoccus, 1
+	Bacteria, Bacteroidetes, Chitinophagales, Chitinophagia, Chitinophagaceae, Chitinophaga, 1
+	Bacteria, Bacteroidetes, Chitinophagales, Chitinophagia, Chitinophagaceae, Ferruginibacter, 1
+	Bacteria, Bacteroidetes, Chitinophagales, Chitinophagia, Chitinophagaceae, Flavihumibacter, 1
+	Bacteria, Bacteroidetes, Chitinophagales, Chitinophagia, Chitinophagaceae, Hydrotalea, 1
+	Bacteria, Bacteroidetes, Chitinophagales, Chitinophagia, Chitinophagaceae, NA, 1
+	Bacteria, Bacteroidetes, Chitinophagales, Chitinophagia, Chitinophagaceae, Niabella, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cyclobacteriaceae, Algoriphagus, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cyclobacteriaceae, Aquiflexum, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cyclobacteriaceae, Cecembia, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cyclobacteriaceae, Cyclobacterium, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cytophagaceae, Larkinella, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cytophagaceae, Pseudarcicella, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cytophagaceae, Rhabdobacter, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cytophagaceae, Runella, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Cytophagaceae, Spirosoma, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Flammeovirgaceae, NA, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Hymenobacteraceae, Hymenobacter, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Hymenobacteraceae, Rufibacter, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, NA, NA, 1
+	Bacteria, Bacteroidetes, Cytophagales, Cytophagia, Reichenbachiellaceae, Marinoscillum, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Crocinitomicaceae, Brumimicrobium, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Crocinitomicaceae, Crocinitomix, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Crocinitomicaceae, Fluviicola, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Crocinitomicaceae, NA, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Cryomorphaceae, NA, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Aestuariibaculum, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Aquimarina, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Eudoraea, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Flagellimonas, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Flavobacterium, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Gaetbulibacter, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Gramella, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Kordia, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Leeuwenhoekiella, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Lutibacter, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Maribacter, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Mesonia, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Muricauda, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Myroides, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, NA, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Nonlabens, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Planktosalinus, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Polaribacter, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Psychroflexus, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Psychroserpens, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Salegentibacter, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Seonamhaeicola, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Tenacibaculum, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Wenyingzhuangia, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Winogradskyella, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Flavobacteriaceae, Zobellia, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, NA, NA, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Schleiferiaceae, Croceimicrobium, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Schleiferiaceae, Owenweeksia, 1
+	Bacteria, Bacteroidetes, Flavobacteriales, Flavobacteriia, Weeksellaceae, Chryseobacterium, 1
+	Bacteria, Bacteroidetes, Marinilabiliales, Bacteroidia, Marinifilaceae, Marinifilum, 1
+	Bacteria, Bacteroidetes, Marinilabiliales, Bacteroidia, Marinilabiliaceae, Anaerophaga, 1
+	Bacteria, Bacteroidetes, Marinilabiliales, Bacteroidia, Marinilabiliaceae, Carboxylicivirga, 1
+	Bacteria, Bacteroidetes, Marinilabiliales, Bacteroidia, NA, NA, 1
+	Bacteria, Bacteroidetes, Marinilabiliales, Bacteroidia, Prolixibacteraceae, Sunxiuqinia, 1
+	Bacteria, Bacteroidetes, NA, NA, NA, NA, 1
+	Bacteria, Bacteroidetes, Saprospirales, Saprospiria, Lewinellaceae, Flavilitoribacter, 1
+	Bacteria, Bacteroidetes, Saprospirales, Saprospiria, Lewinellaceae, Lewinella, 1
+	Bacteria, Bacteroidetes, Saprospirales, Saprospiria, NA, NA, 1
+	Bacteria, Bacteroidetes, Sphingobacteriales, Sphingobacteriia, NA, NA, 1
+	Bacteria, Bacteroidetes, Sphingobacteriales, Sphingobacteriia, Sphingobacteriaceae, Mucilaginibacter, 1
+	Bacteria, Bacteroidetes, Sphingobacteriales, Sphingobacteriia, Sphingobacteriaceae, Olivibacter, 1
+	Bacteria, Bacteroidetes, Sphingobacteriales, Sphingobacteriia, Sphingobacteriaceae, Pedobacter, 1
+	Bacteria, Bacteroidetes, Sphingobacteriales, Sphingobacteriia, Sphingobacteriaceae, Sphingobacterium, 1
+	Bacteria, Balneolaeota, Balneolales, Balneolia, Balneolaceae, NA, 1
+	Bacteria, Calditrichaeota, Calditrichales, Calditrichia, Calditrichaceae, Caldithrix, 1
+	Bacteria, Calditrichaeota, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Aminicenantes, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Azambacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Beckwithbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Berkelbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Buchananbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Cloacimonetes, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Collierbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Dadabacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Falkowbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Fermentibacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Giovannonibacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Gracilibacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Harrisonbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Hydrogenedentes, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Kaiserbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Kerfeldbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Latescibacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Magasanikbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Margulisbacteria, NA, Candidatus Marinamargulisbacteria, NA, NA, 1
+	Bacteria, Candidatus Marinimicrobia, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Melainabacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Moranbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Nealsonbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Omnitrophica, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Pacebacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Parcubacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Peregrinibacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Poribacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Roizmanbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Rokubacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Ryanbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Saccharibacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Staskawiczbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Uhrbacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Woesebacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Wolfebacteria, NA, NA, NA, NA, 1
+	Bacteria, Candidatus Yanofskybacteria, NA, NA, NA, NA, 1
+	Bacteria, Chlamydiae, Parachlamydiales, Chlamydiia, Simkaniaceae, NA, 1
+	Bacteria, Chloroflexi, Anaerolineales, Anaerolineae, Anaerolineaceae, NA, 1
+	Bacteria, Chloroflexi, Chloroflexales, Chloroflexia, Roseiflexaceae, Kouleothrix, 1
+	Bacteria, Chloroflexi, Kallotenuales, Chloroflexia, Kallotenuaceae, Kallotenue, 1
+	Bacteria, Chloroflexi, NA, Anaerolineae, NA, NA, 1
+	Bacteria, Chloroflexi, NA, Chloroflexia, NA, NA, 1
+	Bacteria, Chloroflexi, NA, Dehalococcoidia, NA, NA, 1
+	Bacteria, Chloroflexi, NA, NA, NA, NA, 1
+	Bacteria, Chloroflexi, Sphaerobacterales, Thermomicrobia, Sphaerobacteraceae, Nitrolancea, 1
+	Bacteria, Chloroflexi, Sphaerobacterales, Thermomicrobia, Sphaerobacteraceae, Sphaerobacter, 1
+	Bacteria, Cyanobacteria, Chroococcales, NA, Aphanothecaceae, Gloeothece, 1
+	Bacteria, Cyanobacteria, Chroococcales, NA, Chroococcaceae, Geminocystis, 1
+	Bacteria, Cyanobacteria, Chroococcales, NA, Microcystaceae, Microcystis, 1
+	Bacteria, Cyanobacteria, NA, NA, NA, NA, 1
+	Bacteria, Cyanobacteria, Nostocales, NA, Aphanizomenonaceae, Aphanizomenon, 1
+	Bacteria, Cyanobacteria, Nostocales, NA, Nostocaceae, Richelia, 1
+	Bacteria, Cyanobacteria, Oscillatoriales, NA, Microcoleaceae, Microcoleus, 1
+	Bacteria, Cyanobacteria, Oscillatoriales, NA, NA, Koinonema, 1
+	Bacteria, Cyanobacteria, Pseudanabaenales, NA, Leptolyngbyaceae, Leptolyngbya, 1
+	Bacteria, Cyanobacteria, Pseudanabaenales, NA, Pseudanabaenaceae, Pseudanabaena, 1
+	Bacteria, Cyanobacteria, Synechococcales, NA, Coelosphaeriaceae, Snowella, 1
+	Bacteria, Cyanobacteria, Synechococcales, NA, Merismopediaceae, Synechocystis, 1
+	Bacteria, Cyanobacteria, Synechococcales, NA, Prochlorococcaceae, Cyanobium, 1
+	Bacteria, Cyanobacteria, Synechococcales, NA, Prochlorococcaceae, Prochlorococcus, 1
+	Bacteria, Cyanobacteria, Synechococcales, NA, Synechococcaceae, Synechococcus, 1
+	Bacteria, Deferribacteres, Deferribacterales, Deferribacteres, Deferribacteraceae, Denitrovibrio, 1
+	Bacteria, Deinococcus-Thermus, Deinococcales, Deinococci, Deinococcaceae, Deinococcus, 1
+	Bacteria, Deinococcus-Thermus, Thermales, Deinococci, Thermaceae, Thermus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Alicyclobacillaceae, Alicyclobacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Bacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Caldibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Cytobacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Geobacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Neobacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Oceanobacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Ornithinibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Pontibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Psychrobacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Robertmurraya, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Bacillaceae, Tepidibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Listeriaceae, Listeria, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Paenibacillaceae, Aneurinibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Paenibacillaceae, Brevibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Paenibacillaceae, Cohnella, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Paenibacillaceae, Paenibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Planococcaceae, Chryseomicrobium, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Planococcaceae, Jeotgalibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Planococcaceae, Sporosarcina, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Sporolactobacillaceae, Scopulibacillus, 1
+	Bacteria, Firmicutes, Bacillales, Bacilli, Staphylococcaceae, Macrococcus, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Clostridiaceae, Alkaliphilus, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Clostridiaceae, Clostridium, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Lachnospiraceae, Anaerostipes, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Lachnospiraceae, Anaerotignum, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Lachnospiraceae, Butyrivibrio, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Lachnospiraceae, Epulopiscium, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Lachnospiraceae, Kineothrix, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Lachnospiraceae, Lachnoclostridium, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Lachnospiraceae, NA, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, NA, NA, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Oscillospiraceae, Acutalibacter, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Oscillospiraceae, Anaerotruncus, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Oscillospiraceae, Monoglobus, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Oscillospiraceae, Oscillibacter, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Oscillospiraceae, Pseudoflavonifractor, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Oscillospiraceae, Ruminiclostridium, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Peptococcaceae, Dehalobacter, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Peptococcaceae, Desulfosporosinus, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Peptococcaceae, Desulfotomaculum, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Peptococcaceae, Pelotomaculum, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Peptococcaceae, Syntrophobotulus, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Peptostreptococcaceae, Peptoanaerobacter, 1
+	Bacteria, Firmicutes, Eubacteriales, Clostridia, Symbiobacteriaceae, Symbiobacterium, 1
+	Bacteria, Firmicutes, Lactobacillales, Bacilli, Aerococcaceae, Globicatella, 1
+	Bacteria, Firmicutes, Lactobacillales, Bacilli, Enterococcaceae, Enterococcus, 1
+	Bacteria, Firmicutes, Lactobacillales, Bacilli, Lactobacillaceae, Bombilactobacillus, 1
+	Bacteria, Firmicutes, Lactobacillales, Bacilli, Lactobacillaceae, Limosilactobacillus, 1
+	Bacteria, Firmicutes, Lactobacillales, Bacilli, Lactobacillaceae, Oenococcus, 1
+	Bacteria, Firmicutes, Lactobacillales, Bacilli, Streptococcaceae, Streptococcus, 1
+	Bacteria, Firmicutes, NA, NA, NA, NA, 1
+	Bacteria, Firmicutes, Selenomonadales, Negativicutes, Sporomusaceae, Sporomusa, 1
+	Bacteria, Firmicutes, Thermoanaerobacterales, Clostridia, Thermoanaerobacteraceae, Thermodesulfitimonas, 1
+	Bacteria, Firmicutes, Tissierellales, Tissierellia, Peptoniphilaceae, Anaerococcus, 1
+	Bacteria, Firmicutes, Tissierellales, Tissierellia, Peptoniphilaceae, Peptoniphilus, 1
+	Bacteria, Gemmatimonadetes, NA, NA, NA, NA, 1
+	Bacteria, Ignavibacteriae, NA, Ignavibacteria, NA, NA, 1
+	Bacteria, Ignavibacteriae, NA, NA, NA, NA, 1
+	Bacteria, Kiritimatiellaeota, NA, NA, NA, NA, 1
+	Bacteria, Lentisphaerae, NA, NA, NA, NA, 1
+	Bacteria, NA, NA, NA, Candidatus Chazhemtobacteraceae, Candidatus Chazhemtobacterium, 1
+	Bacteria, NA, NA, NA, NA, NA, 1
+	Bacteria, Nitrospinae, Nitrospinales, Nitrospinia, Nitrospinaceae, Candidatus Nitronauta, 1
+	Bacteria, Nitrospirae, NA, NA, NA, NA, 1
+	Bacteria, Nitrospirae, NA, Nitrospira, NA, NA, 1
+	Bacteria, Nitrospirae, Nitrospirales, Nitrospira, NA, NA, 1
+	Bacteria, Nitrospirae, Nitrospirales, Nitrospira, Nitrospiraceae, Nitrospira, 1
+	Bacteria, Planctomycetes, Gemmatales, Planctomycetia, Gemmataceae, Telmatocola, 1
+	Bacteria, Planctomycetes, Isosphaerales, Planctomycetia, Isosphaeraceae, Aquisphaera, 1
+	Bacteria, Planctomycetes, NA, NA, NA, NA, 1
+	Bacteria, Planctomycetes, NA, Phycisphaerae, NA, NA, 1
+	Bacteria, Planctomycetes, Phycisphaerales, Phycisphaerae, Phycisphaeraceae, Phycisphaera, 1
+	Bacteria, Planctomycetes, Pirellulales, Planctomycetia, Pirellulaceae, Aureliella, 1
+	Bacteria, Planctomycetes, Pirellulales, Planctomycetia, Pirellulaceae, Blastopirellula, 1
+	Bacteria, Planctomycetes, Pirellulales, Planctomycetia, Pirellulaceae, Pirellula, 1
+	Bacteria, Planctomycetes, Pirellulales, Planctomycetia, Pirellulaceae, Roseiconus, 1
+	Bacteria, Planctomycetes, Planctomycetales, Planctomycetia, Planctomycetaceae, Gimesia, 1
+	Bacteria, Planctomycetes, Planctomycetales, Planctomycetia, Planctomycetaceae, NA, 1
+	Bacteria, Planctomycetes, Planctomycetales, Planctomycetia, Planctomycetaceae, Planctomicrobium, 1
+	Bacteria, Planctomycetes, Planctomycetales, Planctomycetia, Planctomycetaceae, Planctomyces, 1
+	Bacteria, Proteobacteria, Acidithiobacillales, Acidithiobacillia, NA, NA, 1
+	Bacteria, Proteobacteria, Aeromonadales, Gammaproteobacteria, Aeromonadaceae, Aeromonas, 1
+	Bacteria, Proteobacteria, Aeromonadales, Gammaproteobacteria, Succinivibrionaceae, Succinivibrio, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Alteromonadaceae, Alteromonas, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Alteromonadaceae, Bowmanella, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Alteromonadaceae, Catenovulum, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Alteromonadaceae, NA, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Alteromonadaceae, Paraglaciecola, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Ferrimonadaceae, Paraferrimonas, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Idiomarinaceae, Idiomarina, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Pseudoalteromonadaceae, Pseudoalteromonas, 1
+	Bacteria, Proteobacteria, Alteromonadales, Gammaproteobacteria, Shewanellaceae, Shewanella, 1
+	Bacteria, Proteobacteria, Bdellovibrionales, Oligoflexia, Bdellovibrionaceae, Bdellovibrio, 1
+	Bacteria, Proteobacteria, Bdellovibrionales, Oligoflexia, NA, NA, 1
+	Bacteria, Proteobacteria, Bradymonadales, Deltaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Alcaligenaceae, Achromobacter, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Alcaligenaceae, Bordetella, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Alcaligenaceae, Candidimonas, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Alcaligenaceae, Castellaniella, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Alcaligenaceae, Oligella, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Alcaligenaceae, Orrella, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Alcaligenaceae, Paracandidimonas, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Alcaligenaceae, Pusillimonas (ex Stolz et al. 2005), 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, Burkholderia, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, Caballeronia, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, Cupriavidus, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, NA, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, Pandoraea, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, Paraburkholderia, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, Polynucleobacter, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, Robbsia, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Burkholderiaceae, Trinickia, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Alicycliphilus, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Comamonas, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Delftia, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Hydrogenophaga, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Limnohabitans, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Macromonas, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, NA, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Polaromonas, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Rhodoferax, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Schlegelella, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Simplicispira, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Variovorax, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Comamonadaceae, Xenophilus, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, NA, Aquincola, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, NA, Leptothrix, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, NA, Methylibium, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, NA, Paucibacter, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, NA, Rubrivivax, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, NA, Xylophilus, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Oxalobacteraceae, Herbaspirillum, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Oxalobacteraceae, Janthinobacterium, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Oxalobacteraceae, Massilia, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Oxalobacteraceae, Noviherbaspirillum, 1
+	Bacteria, Proteobacteria, Burkholderiales, Betaproteobacteria, Oxalobacteraceae, Pseudoduganella, 1
+	Bacteria, Proteobacteria, Campylobacterales, Epsilonproteobacteria, Campylobacteraceae, Aliarcobacter, 1
+	Bacteria, Proteobacteria, Campylobacterales, Epsilonproteobacteria, Campylobacteraceae, Arcobacter, 1
+	Bacteria, Proteobacteria, Campylobacterales, Epsilonproteobacteria, Campylobacteraceae, Campylobacter, 1
+	Bacteria, Proteobacteria, Campylobacterales, Epsilonproteobacteria, Campylobacteraceae, Malaciobacter, 1
+	Bacteria, Proteobacteria, Campylobacterales, Epsilonproteobacteria, Helicobacteraceae, Helicobacter, 1
+	Bacteria, Proteobacteria, Campylobacterales, Epsilonproteobacteria, Hydrogenimonaceae, Hydrogenimonas, 1
+	Bacteria, Proteobacteria, Campylobacterales, Epsilonproteobacteria, Sulfurovaceae, Sulfurovum, 1
+	Bacteria, Proteobacteria, Campylobacterales, Epsilonproteobacteria, Thiovulaceae, Sulfurimonas, 1
+	Bacteria, Proteobacteria, Caulobacterales, Alphaproteobacteria, Caulobacteraceae, Asticcacaulis, 1
+	Bacteria, Proteobacteria, Caulobacterales, Alphaproteobacteria, Caulobacteraceae, Brevundimonas, 1
+	Bacteria, Proteobacteria, Caulobacterales, Alphaproteobacteria, Caulobacteraceae, Phenylobacterium, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Cellvibrionaceae, Agarilytica, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Cellvibrionaceae, Cellvibrio, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Cellvibrionaceae, Marinimicrobium, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Cellvibrionaceae, Pseudomaricurvus, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Cellvibrionaceae, Teredinibacter, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Halieaceae, Kineobactrum, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Halieaceae, NA, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Halieaceae, Parahaliea, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Halieaceae, Pseudohalioglobus, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Microbulbiferaceae, Microbulbifer, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Cellvibrionales, Gammaproteobacteria, Spongiibacteraceae, Spongiibacter, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Chromatiaceae, Halochromatium, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Chromatiaceae, Lamprocystis, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Chromatiaceae, Thiohalocapsa, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Ectothiorhodospiraceae, Candidatus Macondimonas, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Ectothiorhodospiraceae, Halofilum, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Ectothiorhodospiraceae, Halorhodospira, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Ectothiorhodospiraceae, NA, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Ectothiorhodospiraceae, Nitrococcus, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Ectothiorhodospiraceae, Spiribacter, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, Ectothiorhodospiraceae, Thioalkalivibrio, 1
+	Bacteria, Proteobacteria, Chromatiales, Gammaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Desulfobacterales, Deltaproteobacteria, Desulfobacteraceae, Desulfatibacillum, 1
+	Bacteria, Proteobacteria, Desulfobacterales, Deltaproteobacteria, Desulfobacteraceae, NA, 1
+	Bacteria, Proteobacteria, Desulfobacterales, Deltaproteobacteria, Desulfobulbaceae, Desulfobulbus, 1
+	Bacteria, Proteobacteria, Desulfobacterales, Deltaproteobacteria, Desulfocapsaceae, Desulforhopalus, 1
+	Bacteria, Proteobacteria, Desulfobacterales, Deltaproteobacteria, Desulfocapsaceae, Desulfotalea, 1
+	Bacteria, Proteobacteria, Desulfobacterales, Deltaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Desulfovibrionales, Deltaproteobacteria, Desulfovibrionaceae, Cupidesulfovibrio, 1
+	Bacteria, Proteobacteria, Desulfovibrionales, Deltaproteobacteria, Desulfovibrionaceae, Desulfovibrio, 1
+	Bacteria, Proteobacteria, Desulfovibrionales, Deltaproteobacteria, Desulfovibrionaceae, Maridesulfovibrio, 1
+	Bacteria, Proteobacteria, Desulfovibrionales, Deltaproteobacteria, Desulfovibrionaceae, NA, 1
+	Bacteria, Proteobacteria, Desulfurellales, Deltaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Desulfuromonadales, Deltaproteobacteria, Geobacteraceae, Geomonas, 1
+	Bacteria, Proteobacteria, Desulfuromonadales, Deltaproteobacteria, Geobacteraceae, Oryzomonas, 1
+	Bacteria, Proteobacteria, Desulfuromonadales, Deltaproteobacteria, Syntrophotaleaceae, Syntrophotalea, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Budviciaceae, Jinshanibacter, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Enterobacteriaceae, Citrobacter, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Enterobacteriaceae, Enterobacter, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Enterobacteriaceae, Escherichia, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Enterobacteriaceae, Klebsiella, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Enterobacteriaceae, NA, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Enterobacteriaceae, Salmonella, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Erwiniaceae, Mixta, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Erwiniaceae, Pantoea, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Hafniaceae, Hafnia, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Morganellaceae, Arsenophonus, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Morganellaceae, Morganella, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Morganellaceae, Photorhabdus, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Morganellaceae, Proteus, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Morganellaceae, Providencia, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Morganellaceae, Xenorhabdus, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Pectobacteriaceae, Dickeya, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Pectobacteriaceae, Pectobacterium, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Thorselliaceae, Thorsellia, 1
+	Bacteria, Proteobacteria, Enterobacterales, Gammaproteobacteria, Yersiniaceae, Serratia, 1
+	Bacteria, Proteobacteria, Holosporales, Alphaproteobacteria, Candidatus Paracaedibacteraceae, Candidatus Finniella, 1
+	Bacteria, Proteobacteria, Holosporales, Alphaproteobacteria, Candidatus Paracaedibacteraceae, Candidatus Paracaedibacter, 1
+	Bacteria, Proteobacteria, Hydrogenophilales, Hydrogenophilalia, Hydrogenophilaceae, Tepidiphilus, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Aurantimonadaceae, Aureimonas, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Aurantimonadaceae, Martelella, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Bartonellaceae, Bartonella, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Blastochloridaceae, Blastochloris, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Boseaceae, Bosea, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Bradyrhizobiaceae, Bradyrhizobium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Bradyrhizobiaceae, Nitrobacter, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Bradyrhizobiaceae, Rhodopseudomonas, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Brucellaceae, Brucella, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Chelatococcaceae, Camelimonas, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Chelatococcaceae, Chelatococcus, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Devosiaceae, Devosia, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Devosiaceae, Maritalea, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Devosiaceae, Pelagibacterium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Hyphomicrobiaceae, Caenibius, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Hyphomicrobiaceae, Hyphomicrobium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Hyphomicrobiaceae, NA, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Kaistiaceae, Bauldia, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Kaistiaceae, Kaistia, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Methylobacteriaceae, Methylobacterium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Methylobacteriaceae, Microvirga, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Methylocystaceae, Methylopila, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Methylocystaceae, Methylosinus, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, NA, Nordella, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Parvibaculaceae, Kaustia, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Parvibaculaceae, Pyruvatibacter, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Phyllobacteriaceae, Aminobacter, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Phyllobacteriaceae, Aquamicrobium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Phyllobacteriaceae, Mesorhizobium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Phyllobacteriaceae, Nitratireductor, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Phyllobacteriaceae, Oricola, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Phyllobacteriaceae, Phyllobacterium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Phyllobacteriaceae, Pseudaminobacter, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Phyllobacteriaceae, Thalassocella, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Reyranellaceae, Reyranella, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Rhizobiaceae, Agrobacterium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Rhizobiaceae, Ensifer, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Rhizobiaceae, Rhizobium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Rhizobiaceae, Shinella, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Rhizobiaceae, Sinorhizobium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Rhodovibrionaceae, Rhodovibrio, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Stappiaceae, Labrenzia, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Stappiaceae, Pseudovibrio, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Stappiaceae, Roseibium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Stappiaceae, Stappia, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Xanthobacteraceae, Ancylobacter, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Xanthobacteraceae, Azorhizobium, 1
+	Bacteria, Proteobacteria, Hyphomicrobiales, Alphaproteobacteria, Xanthobacteraceae, Xanthobacter, 1
+	Bacteria, Proteobacteria, Hyphomonadales, Alphaproteobacteria, Hyphomonadaceae, Hyphomonas, 1
+	Bacteria, Proteobacteria, Iodidimonadales, Alphaproteobacteria, Iodidimonadaceae, Iodidimonas, 1
+	Bacteria, Proteobacteria, Kordiimonadales, Alphaproteobacteria, Kordiimonadaceae, Kordiimonas, 1
+	Bacteria, Proteobacteria, Kordiimonadales, Alphaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Legionellales, Gammaproteobacteria, Coxiellaceae, Coxiella, 1
+	Bacteria, Proteobacteria, Legionellales, Gammaproteobacteria, Legionellaceae, Legionella, 1
+	Bacteria, Proteobacteria, Magnetococcales, Alphaproteobacteria, Candidatus Magnetaquicoccaceae, Candidatus Magnetaquicoccus, 1
+	Bacteria, Proteobacteria, Magnetococcales, Alphaproteobacteria, Magnetococcaceae, Magnetococcus, 1
+	Bacteria, Proteobacteria, Magnetococcales, Alphaproteobacteria, Magnetococcaceae, Magnetofaba, 1
+	Bacteria, Proteobacteria, Maricaulales, Alphaproteobacteria, Robiginitomaculaceae, Robiginitomaculum, 1
+	Bacteria, Proteobacteria, Methylococcales, Gammaproteobacteria, Methylococcaceae, Methylocaldum, 1
+	Bacteria, Proteobacteria, Methylococcales, Gammaproteobacteria, Methylococcaceae, Methylocucumis, 1
+	Bacteria, Proteobacteria, Methylococcales, Gammaproteobacteria, Methylococcaceae, Methylomagnum, 1
+	Bacteria, Proteobacteria, Methylococcales, Gammaproteobacteria, Methylococcaceae, Methylomicrobium, 1
+	Bacteria, Proteobacteria, Methylococcales, Gammaproteobacteria, Methylococcaceae, Methylomonas, 1
+	Bacteria, Proteobacteria, Methylococcales, Gammaproteobacteria, Methylococcaceae, NA, 1
+	Bacteria, Proteobacteria, Methylococcales, Gammaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Moraxellales, Gammaproteobacteria, Moraxellaceae, Acinetobacter, 1
+	Bacteria, Proteobacteria, Moraxellales, Gammaproteobacteria, Moraxellaceae, Agitococcus, 1
+	Bacteria, Proteobacteria, Moraxellales, Gammaproteobacteria, Moraxellaceae, Moraxella, 1
+	Bacteria, Proteobacteria, Moraxellales, Gammaproteobacteria, Moraxellaceae, NA, 1
+	Bacteria, Proteobacteria, Myxococcales, Deltaproteobacteria, Archangiaceae, Archangium, 1
+	Bacteria, Proteobacteria, Myxococcales, Deltaproteobacteria, Myxococcaceae, Corallococcus, 1
+	Bacteria, Proteobacteria, Myxococcales, Deltaproteobacteria, NA, Enhygromyxa, 1
+	Bacteria, Proteobacteria, Myxococcales, Deltaproteobacteria, NA, Minicystis, 1
+	Bacteria, Proteobacteria, Myxococcales, Deltaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Myxococcales, Deltaproteobacteria, Sandaracinaceae, NA, 1
+	Bacteria, Proteobacteria, Myxococcales, Deltaproteobacteria, Vulgatibacteraceae, Vulgatibacter, 1
+	Bacteria, Proteobacteria, NA, Alphaproteobacteria, NA, Candidatus Puniceispirillum, 1
+	Bacteria, Proteobacteria, NA, Alphaproteobacteria, NA, Micavibrio, 1
+	Bacteria, Proteobacteria, NA, Alphaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, NA, Betaproteobacteria, NA, Candidatus Accumulibacter, 1
+	Bacteria, Proteobacteria, NA, Betaproteobacteria, NA, Candidatus Kinetoplastibacterium, 1
+	Bacteria, Proteobacteria, NA, Betaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, NA, Candidatus Lambdaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, NA, Deltaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, NA, Epsilonproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, NA, Gammaproteobacteria, Candidatus Competibacteraceae, Candidatus Competibacter, 1
+	Bacteria, Proteobacteria, NA, Gammaproteobacteria, Candidatus Competibacteraceae, Plasticicumulans, 1
+	Bacteria, Proteobacteria, NA, Gammaproteobacteria, Celerinatantimonadaceae, Celerinatantimonas, 1
+	Bacteria, Proteobacteria, NA, Gammaproteobacteria, NA, Candidatus Ruthia, 1
+	Bacteria, Proteobacteria, NA, Gammaproteobacteria, NA, Candidatus Thioglobus, 1
+	Bacteria, Proteobacteria, NA, Gammaproteobacteria, NA, Ignatzschineria, 1
+	Bacteria, Proteobacteria, NA, Gammaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, NA, NA, NA, NA, 1
+	Bacteria, Proteobacteria, NA, Zetaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Neisseriales, Betaproteobacteria, Chromobacteriaceae, Vogesella, 1
+	Bacteria, Proteobacteria, Neisseriales, Betaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Neisseriales, Betaproteobacteria, Neisseriaceae, Chitinolyticbacter, 1
+	Bacteria, Proteobacteria, Neisseriales, Betaproteobacteria, Neisseriaceae, Crenobacter, 1
+	Bacteria, Proteobacteria, Neisseriales, Betaproteobacteria, Neisseriaceae, Eikenella, 1
+	Bacteria, Proteobacteria, Neisseriales, Betaproteobacteria, Neisseriaceae, Snodgrassella, 1
+	Bacteria, Proteobacteria, Nevskiales, Gammaproteobacteria, Sinobacteraceae, Hydrocarboniphaga, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, Gallionellaceae, Candidatus Nitrotoga, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, Gallionellaceae, Sideroxydans, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, Methylophilaceae, Methylotenera, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, Methylophilaceae, NA, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, Nitrosomonadaceae, Nitrosomonas, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, Nitrosomonadaceae, Nitrosospira, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, Nitrosomonadaceae, Nitrosovibrio, 1
+	Bacteria, Proteobacteria, Nitrosomonadales, Betaproteobacteria, Thiobacillaceae, Thiobacillus, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Alcanivoracaceae, Alcanivorax, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Alcanivoracaceae, NA, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Endozoicomonadaceae, Endozoicomonas, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Hahellaceae, Hahella, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Hahellaceae, Spartinivicinus, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Halomonadaceae, Chromohalobacter, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Halomonadaceae, Halomonas, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Halomonadaceae, Kushneria, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Halomonadaceae, Salinicola, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Oceanospirillaceae, Amphritea, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Oceanospirillaceae, Marinobacterium, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Oceanospirillaceae, Marinomonas, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Oceanospirillaceae, Neptunomonas, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Oceanospirillaceae, Nitrincola, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Oleiphilaceae, Oleiphilus, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Pleioneaceae, Aliikangiella, 1
+	Bacteria, Proteobacteria, Oceanospirillales, Gammaproteobacteria, Saccharospirillaceae, Reinekea, 1
+	Bacteria, Proteobacteria, Pasteurellales, Gammaproteobacteria, Pasteurellaceae, Lonepinella, 1
+	Bacteria, Proteobacteria, Pasteurellales, Gammaproteobacteria, Pasteurellaceae, Pasteurella, 1
+	Bacteria, Proteobacteria, Pasteurellales, Gammaproteobacteria, Pasteurellaceae, Rodentibacter, 1
+	Bacteria, Proteobacteria, Pelagibacterales, Alphaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Pelagibacterales, Alphaproteobacteria, Pelagibacteraceae, Candidatus Pelagibacter, 1
+	Bacteria, Proteobacteria, Pelagibacterales, Alphaproteobacteria, Pelagibacteraceae, NA, 1
+	Bacteria, Proteobacteria, Pseudomonadales, Gammaproteobacteria, Marinobacteraceae, Marinobacter, 1
+	Bacteria, Proteobacteria, Pseudomonadales, Gammaproteobacteria, Pseudomonadaceae, Azomonas, 1
+	Bacteria, Proteobacteria, Pseudomonadales, Gammaproteobacteria, Pseudomonadaceae, Azotobacter, 1
+	Bacteria, Proteobacteria, Pseudomonadales, Gammaproteobacteria, Pseudomonadaceae, Pseudomonas, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Aliiroseovarius, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Alkalilacustris, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Alterinioella, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Amylibacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Boseongicola, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Cereibacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Fluviibacterium, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Haematobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, NA, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Oceanomicrobium, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Paenimaribius, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Paracoccus, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Paraphaeobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Pararhodobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Pseudophaeobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Pukyongiella, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Rhodobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Rhodovulum, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Rubrimonas, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Thioclava, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Rhodobacteraceae, Vannielia, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Actibacterium, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Jannaschia, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Ketogulonicigenium, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Leisingera, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Loktanella, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Mameliella, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Maritimibacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Marivita, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Mesobaculum, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Phaeobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Pontibaca, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Roseivivax, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Roseobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Roseovarius, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Salipiger, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Shimia, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Sulfitobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Thalassobacter, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Thalassobius, 1
+	Bacteria, Proteobacteria, Rhodobacterales, Alphaproteobacteria, Roseobacteraceae, Tropicibacter, 1
+	Bacteria, Proteobacteria, Rhodocyclales, Betaproteobacteria, Rhodocyclaceae, Azospira, 1
+	Bacteria, Proteobacteria, Rhodocyclales, Betaproteobacteria, Zoogloeaceae, Azoarcus, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Acetobacter, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Acidisphaera, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Acidocella, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Gluconobacter, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Kozakia, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Rhodovarius, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Roseococcus, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Roseomonas, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Rubritepida, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Acetobacteraceae, Tanticharoenia, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Azospirillaceae, Azospirillum, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Azospirillaceae, Nitrospirillum, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Geminicoccaceae, Geminicoccus, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Kiloniellaceae, Curvivirga, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Kiloniellaceae, Kiloniella, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Rhodospirillaceae, Candidatus Endolissoclinum, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Rhodospirillaceae, Inquilinus, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Rhodospirillaceae, Magnetospirillum, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Rhodospirillaceae, NA, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Rhodospirillaceae, Telmatospirillum, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Rhodospirillaceae, Tistrella, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Stellaceae, Stella, 1
+	Bacteria, Proteobacteria, Rhodospirillales, Alphaproteobacteria, Thalassospiraceae, Thalassospira, 1
+	Bacteria, Proteobacteria, Rickettsiales, Alphaproteobacteria, Anaplasmataceae, Anaplasma, 1
+	Bacteria, Proteobacteria, Rickettsiales, Alphaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Salinisphaerales, Gammaproteobacteria, Salinisphaeraceae, Salinisphaera, 1
+	Bacteria, Proteobacteria, Silvanigrellales, Oligoflexia, NA, Spirobacillus, 1
+	Bacteria, Proteobacteria, Sneathiellales, Alphaproteobacteria, Sneathiellaceae, Sneathiella, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Erythrobacteraceae, Actirhodobacter, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Erythrobacteraceae, Alteraurantiacibacter, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Erythrobacteraceae, Altererythrobacter, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Erythrobacteraceae, Altericroceibacterium, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Erythrobacteraceae, Alteriqipengyuania, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Erythrobacteraceae, Croceicoccus, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Erythrobacteraceae, Erythrobacter, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Erythrobacteraceae, Qipengyuania, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Sphingomonadaceae, Aestuariisphingobium, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Sphingomonadaceae, Hephaestia, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Sphingomonadaceae, Novosphingobium, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Sphingomonadaceae, Rhizorhapis, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Sphingomonadaceae, Sphingobium, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Sphingomonadaceae, Sphingomonas, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Sphingomonadaceae, Sphingopyxis, 1
+	Bacteria, Proteobacteria, Sphingomonadales, Alphaproteobacteria, Sphingomonadaceae, Tardibacter, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, Fastidiosibacteraceae, Caedibacter, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, Fastidiosibacteraceae, Cysteiniphilum, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, Francisellaceae, Allofrancisella, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, Francisellaceae, Francisella, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, Piscirickettsiaceae, Cycloclasticus, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, Thiotrichaceae, Beggiatoa, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, Thiotrichaceae, NA, 1
+	Bacteria, Proteobacteria, Thiotrichales, Gammaproteobacteria, Thiotrichaceae, Thiomargarita, 1
+	Bacteria, Proteobacteria, Vibrionales, Gammaproteobacteria, Vibrionaceae, Photobacterium, 1
+	Bacteria, Proteobacteria, Vibrionales, Gammaproteobacteria, Vibrionaceae, Thaumasiovibrio, 1
+	Bacteria, Proteobacteria, Vibrionales, Gammaproteobacteria, Vibrionaceae, Vibrio, 1
+	Bacteria, Proteobacteria, Xanthomonadales, Gammaproteobacteria, NA, NA, 1
+	Bacteria, Proteobacteria, Xanthomonadales, Gammaproteobacteria, Rhodanobacteraceae, Dyella, 1
+	Bacteria, Proteobacteria, Xanthomonadales, Gammaproteobacteria, Rhodanobacteraceae, Frateuria, 1
+	Bacteria, Proteobacteria, Xanthomonadales, Gammaproteobacteria, Rhodanobacteraceae, Luteibacter, 1
+	Bacteria, Proteobacteria, Xanthomonadales, Gammaproteobacteria, Xanthomonadaceae, Lysobacter, 1
+	Bacteria, Proteobacteria, Xanthomonadales, Gammaproteobacteria, Xanthomonadaceae, Pseudoxanthomonas, 1
+	Bacteria, Proteobacteria, Xanthomonadales, Gammaproteobacteria, Xanthomonadaceae, Stenotrophomonas, 1
+	Bacteria, Spirochaetes, Brachyspirales, Spirochaetia, Brachyspiraceae, Brachyspira, 1
+	Bacteria, Spirochaetes, Leptospirales, Spirochaetia, Leptospiraceae, Leptospira, 1
+	Bacteria, Spirochaetes, NA, NA, NA, NA, 1
+	Bacteria, Spirochaetes, Spirochaetales, Spirochaetia, Sphaerochaetaceae, Sphaerochaeta, 1
+	Bacteria, Spirochaetes, Spirochaetales, Spirochaetia, Spirochaetaceae, Alkalispirochaeta, 1
+	Bacteria, Synergistetes, Synergistales, Synergistia, Synergistaceae, Aminivibrio, 1
+	Bacteria, Tenericutes, NA, NA, NA, NA, 1
+	Bacteria, Verrucomicrobia, NA, NA, NA, NA, 1
+	Bacteria, Verrucomicrobia, NA, Opitutae, NA, NA, 1
+	Bacteria, Verrucomicrobia, NA, Verrucomicrobiae, NA, NA, 1
+	Bacteria, Verrucomicrobia, Opitutales, Opitutae, NA, NA, 1
+	Bacteria, Verrucomicrobia, Opitutales, Opitutae, Opitutaceae, Geminisphaera, 1
+	Bacteria, Verrucomicrobia, Opitutales, Opitutae, Opitutaceae, NA, 1
+	Bacteria, Verrucomicrobia, Puniceicoccales, Opitutae, Puniceicoccaceae, Coraliomargarita, 1
+	Bacteria, Verrucomicrobia, Puniceicoccales, Opitutae, Puniceicoccaceae, NA, 1
+	Bacteria, Verrucomicrobia, Puniceicoccales, Opitutae, Puniceicoccaceae, Ruficoccus, 1
+	Bacteria, Verrucomicrobia, Terrimicrobiales, Terrimicrobia, Terrimicrobiaceae, Terrimicrobium, 1
+	Bacteria, Verrucomicrobia, Verrucomicrobiales, Verrucomicrobiae, NA, NA, 1
+	Bacteria, Verrucomicrobia, Verrucomicrobiales, Verrucomicrobiae, Verrucomicrobiaceae, NA, 1
+	Bacteria, Verrucomicrobia, Verrucomicrobiales, Verrucomicrobiae, Verrucomicrobiaceae, Phragmitibacter, 1
+	Bacteria, Verrucomicrobia, Verrucomicrobiales, Verrucomicrobiae, Verrucomicrobiaceae, Prosthecobacter, 1
+	Bacteria, candidate division NC10, NA, NA, NA, Candidatus Methylomirabilis, 1
+	Bacteria, candidate division WOR-3, NA, NA, NA, NA, 1
+	Bacteria, candidate division WWE3, NA, NA, NA, NA, 1
+	Bacteria, candidate division Zixibacteria, NA, NA, NA, NA, 1

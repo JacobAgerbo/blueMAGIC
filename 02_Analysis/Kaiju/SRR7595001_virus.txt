@@ -1,0 +1,13 @@
+	Viruses, NA, NA, NA, NA, NA, 1
+	Viruses, NA, NA, NA, NA, Pandoravirus, 1
+	Viruses, NA, NA, NA, Polydnaviridae, Bracovirus, 1
+	Viruses, Nucleocytoviricota, Algavirales, Megaviricetes, Phycodnaviridae, NA, 1
+	Viruses, Nucleocytoviricota, Pimascovirales, Megaviricetes, Iridoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Herelleviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Myoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, NA, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Podoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Schitoviridae, Stoningtonvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, Muminvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, Tantvirus, 1

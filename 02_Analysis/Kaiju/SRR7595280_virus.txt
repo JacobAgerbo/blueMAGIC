@@ -1,0 +1,12 @@
+	Viruses, Artverviricota, Ortervirales, Revtraviricetes, Retroviridae, Alpharetrovirus, 1
+	Viruses, Kitrinoviricota, Amarillovirales, Flasuviricetes, Flaviviridae, Pestivirus, 1
+	Viruses, NA, NA, NA, NA, NA, 1
+	Viruses, Nucleocytoviricota, Algavirales, Megaviricetes, Phycodnaviridae, Phaeovirus, 1
+	Viruses, Nucleocytoviricota, Chitovirales, Pokkesviricetes, Poxviridae, Oryzopoxvirus, 1
+	Viruses, Nucleocytoviricota, Imitervirales, Megaviricetes, Mimiviridae, NA, 1
+	Viruses, Nucleocytoviricota, Pimascovirales, Megaviricetes, Iridoviridae, Iridovirus, 1
+	Viruses, Peploviricota, Herpesvirales, Herviviricetes, Herpesviridae, Varicellovirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Myoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, NA, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Podoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, NA, 1

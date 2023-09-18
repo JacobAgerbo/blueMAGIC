@@ -1,0 +1,9 @@
+	Viruses, Phixviricota, Petitvirales, Malgrandaviricetes, Microviridae, NA, 1
+	Viruses, Preplasmiviricota, Orthopolintovirales, Polintoviricetes, Adintoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Myoviridae, Alcyoneusvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Myoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, NA, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Podoviridae, Bruynoghevirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, Lokivirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, Muminvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, NA, 1

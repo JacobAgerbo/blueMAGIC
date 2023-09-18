@@ -1,0 +1,14 @@
+	Viruses, NA, NA, NA, NA, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Autographiviridae, Lauvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Autographiviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Myoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Myoviridae, Obolenskvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, NA, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Podoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Schitoviridae, Litunavirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Schitoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Schitoviridae, Pollockvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Schitoviridae, Stoningtonvirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, Maxrubnervirus, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Siphoviridae, NA, 1
+	Viruses, Uroviricota, Caudovirales, Caudoviricetes, Zobellviridae, Siovirus, 1
