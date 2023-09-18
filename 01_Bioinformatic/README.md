@@ -13,7 +13,7 @@ We will post all scripts related to bioinformatics [**here**](https://github.com
 - Recovering biosynthetic gene clusters (BGCs)
 - Mining for antibacterial resistance genes (ARGs)
 
-## Data retrievel
+## Data retrieval
 
 Here is a script for downloading the first 50 marine metagenomes of interest. Full list will also be available [**here**](https://github.com/JacobAgerbo/blueMAGIC/tree/main/01_Bioinformatic/assets/ALL_ACCESSIONS.TXT).
 
@@ -54,7 +54,7 @@ All reads are being seperated between eukaryotic and prokaryotic data to increas
 This will be based in two steps. Running tax classification with *KRAKEN* and running post-hoc script to seperate reads.
 
 **Classification of reads with KRAKEN**
-Remember that you can run SLURM script above, just change in commandline alias `CMD="scripts/removeEUK.sh $file"`. 
+*Remember that you can run SLURM script above, just change in commandline alias to* `CMD="scripts/removeEUK.sh $file"`. 
 
 ```{bash}
 #Below is an example for running one sample.
@@ -62,9 +62,61 @@ bash scripts/removeEUK.sh SRR5916561
 ```
 
 **Seperation of reads with based KRAKEN report**
-Remember that you can run SLURM script above, just change in commandline alias.
+*Remember that you can run SLURM script above, just change in commandline alias to* `CMD="scripts/extractBAC_reads.sh $file"`.
 
 ```{bash}
 #Below is an example for running one sample.
 bash scripts/extractBAC_reads.sh SRR5916561
 ```
+## Running MEGAHIT for single assemblies
+
+**MEGAHIT and SPAdes are both popular tools for metagenomic assembly.**
+Assembly is important for investigating the subsequent parts, like bacterial richness, BGCs, phages, and ARGs. 
+
+MEGAHIT is known for its efficiency and speed in assembling large and complex metagenomic datasets. It utilizes a succinct de Bruijn graph data structure, which allows for memory-efficient assembly. MEGAHit also incorporates various algorithms to handle uneven coverage and reduce chimeric contigs.
+
+On the other hand, SPAdes is a versatile metagenomic assembly tool that offers more advanced features. It can handle both short and long reads, including paired-end and mate-pair libraries. SPAdes also provides options for error correction, scaffolding, and gap filling, which can improve the quality of the assembly.
+
+The choice between MEGAHit and SPAdes depends on the specific requirements of your metagenomic project. If you are working with large datasets and prioritize speed, MEGAHit is a good choice. 
+
+Here we use MEGAHIT for a memory-efficient processing. We combine it with the meta-sensitive preset for metagenomic assembly. This preset is designed for metagenomes that are complex and diverse, such as soil metagenomes. It uses a k-mer length of 21, 29, 39, 59, 79, 99, and 119 to build the de Bruijn graph, which allows for better handling of complex metagenomes. 
+
+Furthermore, we filter out contigs, which are smaller than 1 Kb, since these contigs often are **rubish**. 
+
+```{bash}
+#Below is an example for running one sample.
+bash scripts/do_Assembly.sh SRR5916561
+```
+*Remember that you can run SLURM script above, just change in commandline alias to* `CMD="scripts/do_Assembly.sh $file"`.
+
+## Profiling with Kaiju
+[**Kaiju**](https://bioinformatics-centre.github.io/kaiju/), is a bioinformatics tool used for bacterial profiling. It is designed to analyze metagenomic sequencing data and identify the presence of bacterial species in a given sample.
+
+Several reference protein databases can be used, such as complete genomes from NCBI RefSeq or the microbial subset of the NCBI BLAST non-redundant protein database nr, optionally also including fungi and microbial eukaryotes.
+
+Here, we use the nr database including fungi and microbial eukaryotes to as most comprehensive as possible. 
+
+While running KAIJI profiles, we do this through the anvi'o [**pipeline **](https://merenlab.org/2016/06/18/importing-taxonomy/). Since these contigs will be used for genome-resolved metagenomics afterwards. 
+
+Therefore, we generate the needed files for using anvi'o in combination with automated binning, using METABAT2 and CONCOCT.
+
+In short, 
+- contigs.fa will be renamed and subquently will be made to a SQL database.
+- gene calls will be profiled, using [**prodigal **](https://github.com/hyattpd/Prodigal).
+- Hidden Markov Models (HMMs) will be calculated to utilize multiple default bacterial single-copy core gene collections and identify hits among your genes to those collections using HMMER.
+- Lastly, metagenomic reads will be profiled back to the contig database, using bwa and samtools. 
+
+```{bash}
+#Below is an example for running one sample.
+
+# Run anvi'o and Kaiju
+bash scripts/doKAIJU.sh SRR5916561
+
+# Start profiling for future MAG generation
+bash scripts/do_generateMAGs.sh SRR5916561
+
+# convert Kaiju output to usefull file for presence/absence richness
+bash scripts/convert_Kaiju.sh SRR5916561
+```
+
+ 
