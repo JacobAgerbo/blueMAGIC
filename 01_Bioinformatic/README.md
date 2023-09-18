@@ -30,8 +30,10 @@ All data will quality control with a minimal filtering using *trimmomatic*, scri
 ```{bash}
 #Below is an example for running one sample.
 bash scripts/do_QCtrim.sh SRR5916561
+```
 
-# Optimal would be a slurm system to run multiple sample simultaneusly, as done below. 
+Optimal would be a slurm system to run multiple sample simultaneusly, as done below. 
+```{bash}
 # Set the path to the directory containing the input files
 # Read the list of input files from a file into an array
 mapfile -t FILES < assets/FIRST_50.txt
@@ -52,22 +54,17 @@ All reads are being seperated between eukaryotic and prokaryotic data to increas
 This will be based in two steps. Running tax classification with *KRAKEN* and running post-hoc script to seperate reads.
 
 **Classification of reads with KRAKEN**
+Remember that you can run SLURM script above, just change in commandline alias <CMD="scripts/removeEUK.sh $file">.
+
 ```{bash}
 #Below is an example for running one sample.
 bash scripts/removeEUK.sh SRR5916561
+```
 
-# Optimal would be a slurm system to run multiple sample simultaneusly, as done below. 
-# Set the path to the directory containing the input files
-# Read the list of input files from a file into an array
-mapfile -t FILES < assets/FIRST_50.txt
+**Seperation of reads with based KRAKEN report**
+Remember that you can run SLURM script above, just change in commandline alias.
 
-# Loop through the array of input files and generate an SBATCH submission line for each file
-for file in "${FILES[@]}"; do
-    # Define the command to run on each file
-    CMD="scripts/do_QCtrim.sh $file"
-    # Define the SBATCH submission line for each file
-    SUBMIT_LINE="sbatch --job-name=$file --out=$file.out --time=05:00:00 --mem=64G --cpus-per-task=12 $CMD"
-    # Submit the SBATCH job for each file
-    eval $SUBMIT_LINE
-done
+```{bash}
+#Below is an example for running one sample.
+bash scripts/extractBAC_reads.sh SRR5916561
 ```
