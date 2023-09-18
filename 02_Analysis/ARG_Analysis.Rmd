@@ -9,9 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r lib load, echo=FALSE, warning=FALSE}
+```{r lib load, echo=FALSE, warning=FALSE, echo=FALSE}
 library(wesanderson)   # Color palettes inspired by Wes Anderson movies.
-library(ggfortify)     # Extends ggplot2 with various statistical models.
+library(ggfortify)     # Extends ggplot2 with various statistical models.V
 library(ggplot2)       # Powerful package for creating graphics and visualizations.
 library(readr)         # Fast and convenient tools for reading structured data files.
 library(readxl)        # Reading data from Excel files.
@@ -25,13 +25,12 @@ library(vegan)
 ```
 ```{r load metadata, echo=FALSE, warning=FALSE}
 # Loading metadata of all samples
-md <- read_excel("../md_marine_metagenomes.xlsx", sheet = "Pilot")
-
+md <- read_excel("md_marine_metagenomes.xlsx", sheet = "Pilot")
 ```
 
 ```{r Bacteria data load, warning=FALSE,echo=FALSE, include=FALSE}
 # Setting the path for the data files
-ARG_table <- read_csv("HEATMAP-193.csv")
+ARG_table <- read_csv("ARGs/HEATMAP-193.csv")
 
 # Assigning sample names to the ARG coverage data
 sample_name <- sub("\\.contigs\\.fa\\.temp\\.homolog", "", basename(colnames(ARG_table)))

@@ -119,4 +119,12 @@ bash scripts/do_generateMAGs.sh SRR5916561
 bash scripts/convert_Kaiju.sh SRR5916561
 ```
 
- 
+## Mining of Biosynthetic Gene Clusters (BGCs)
+
+
+```{bash}
+#Below is an example for running one sample.
+
+# Run anvi'o and Kaiju
+bash scripts/doDeepBGC.sh SRR5916561
+```
