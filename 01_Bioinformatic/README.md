@@ -54,7 +54,7 @@ All reads are being seperated between eukaryotic and prokaryotic data to increas
 This will be based in two steps. Running tax classification with *KRAKEN* and running post-hoc script to seperate reads.
 
 **Classification of reads with KRAKEN**
-Remember that you can run SLURM script above, just change in commandline alias <CMD="scripts/removeEUK.sh $file">.
+Remember that you can run SLURM script above, just change in commandline alias `CMD="scripts/removeEUK.sh $file"`. 
 
 ```{bash}
 #Below is an example for running one sample.
