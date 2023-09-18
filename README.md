@@ -10,14 +10,14 @@ Despite increased interest, very little effort has been made to systematically s
 In this Github repository all code will be presented in the best way to increase FAIRness of the research.
 
 ## Bioinformatics
-We will post all scripts related to bioinformatics [**here**](https://github.com/JacobAgerbo/blueMAGIC/), including: 
+We will post all scripts related to bioinformatics [**here**](https://github.com/JacobAgerbo/blueMAGIC/tree/main/01_Bioinformatic), including: 
 
 - Data retrievel (Soon to become automated)
 - Quality Control
 - 
 
 ## Analysis
-We will post all scripts related to analysis [**here**](https://github.com/JacobAgerbo/blueMAGIC/), including: 
+We will post all scripts related to analysis [**here**](https://github.com/JacobAgerbo/blueMAGIC/tree/main/02_Analysis), including: 
 
 Furthermore, we will generate bookdowns for the analysis, to increase reproducability. 
 
