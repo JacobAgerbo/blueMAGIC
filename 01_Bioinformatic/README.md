@@ -135,6 +135,8 @@ bash scripts/doDeepBGC.sh SRR5916561
 ```
 
 Here is a fast way to get an overview of DeepBGC output, using basic AWK. 
+AWK will list all lines with a PFAM hit and PFAM hits with a DeepBGC score above 0.503.
+
 ```{bash}
 cp */*.pfam.tsv PFAMs
 cd PFAMs
