@@ -96,13 +96,13 @@ Several reference protein databases can be used, such as complete genomes from N
 
 Here, we use the nr database including fungi and microbial eukaryotes to as most comprehensive as possible. 
 
-While running KAIJI profiles, we do this through the anvi'o [**pipeline **](https://merenlab.org/2016/06/18/importing-taxonomy/). Since these contigs will be used for genome-resolved metagenomics afterwards. 
+While running KAIJI profiles, we do this through the anvi'o [pipeline](https://merenlab.org/2016/06/18/importing-taxonomy/). Since these contigs will be used for genome-resolved metagenomics afterwards. 
 
 Therefore, we generate the needed files for using anvi'o in combination with automated binning, using METABAT2 and CONCOCT.
 
 In short, 
 - contigs.fa will be renamed and subquently will be made to a SQL database.
-- gene calls will be profiled, using [**prodigal **](https://github.com/hyattpd/Prodigal).
+- gene calls will be profiled, using [prodigal](https://github.com/hyattpd/Prodigal).
 - Hidden Markov Models (HMMs) will be calculated to utilize multiple default bacterial single-copy core gene collections and identify hits among your genes to those collections using HMMER.
 - Lastly, metagenomic reads will be profiled back to the contig database, using bwa and samtools. 
 
