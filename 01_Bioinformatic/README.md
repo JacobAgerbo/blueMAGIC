@@ -130,7 +130,7 @@ DeepBGC employs a data augmentation step to overcome the limited number of known
 ```{bash}
 #Below is an example for running one sample.
 
-# Run anvi'o and Kaiju
+# Run deepBGC for a single sample
 bash scripts/doDeepBGC.sh SRR5916561
 ```
 
