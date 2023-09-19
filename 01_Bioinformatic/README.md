@@ -133,3 +133,16 @@ DeepBGC employs a data augmentation step to overcome the limited number of known
 # Run anvi'o and Kaiju
 bash scripts/doDeepBGC.sh SRR5916561
 ```
+
+Here is a fast way to get an overview of DeepBGC output, using basic AWK. 
+```{bash}
+cp */*.pfam.tsv PFAMs
+cd PFAMs
+# Loop over TSV files and write output to BGC_Overview.txt
+for file in $(ls *tsv | sed 's/.pfam.tsv//')
+do
+  printf "%s\t" "$file" >> BGC_Overview.txt
+  awk 'BEGIN { FS = "\t" }{if ($7 > 0.503) print $1}' "$file".pfam.tsv | sort -u | wc -l | xargs printf "%s\t" >> BGC_Overview.txt
+  awk 'BEGIN { FS = "\t" }{if ($7 > 0.503) print $6}' "$file".pfam.tsv | sort -u | wc -l >> BGC_Overview.txt
+done
+```
