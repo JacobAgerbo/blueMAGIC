@@ -121,6 +121,11 @@ bash scripts/convert_Kaiju.sh SRR5916561
 
 ## Mining of Biosynthetic Gene Clusters (BGCs)
 
+Both DeepBGC and AntiSmash are effective tools for detecting biosynthetic gene clusters (BGCs). DeepBGC is a deep learning strategy that has shown reduced false positive rates in BGC identification and an improved ability to identify novel BGC classes compared to existing machine-learning tools. On the other hand, AntiSmash is an early tool for BGC discovery that uses a set of curated profile-Hidden Markov Models (pHMMs) to call biosynthetic gene families and a set of rules to identify BGCs [Rios-Martinez et al. 2023](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011162).
+
+While both tools have their advantages, it ultimately depends on the specific needs of the user. For instance, AntiSmash has been updated to version 7.0, which includes new and improved predictions for detection, regulation, and evolution of BGCs [Blin et al. 2023](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10320115/). Additionally, AntiSmash offers more in-depth analyses for certain BGCs encoding non-ribosomal peptide synthetases (NRPSs), type I and type II polyketide synthases (PKSs), lanthipeptides, lasso peptides, sactipeptides, and thiopeptides [Blin et al., 2021](https://academic.oup.com/nar/article/49/W1/W29/6274535).
+
+DeepBGC employs a data augmentation step to overcome the limited number of known BGCs, which improves its ability to detect BGCs in diverse microbial genomes [Liu et al., 2022](https://www.sciencedirect.com/science/article/pii/S0022283622001772). This means that DeepBGC can identify BGCs in a wider range of microbial species, which is important for discovering novel natural products with potential therapeutic applications and the reason why we focus on [DeepBGC](https://github.com/Merck/deepbgc).
 
 ```{bash}
 #Below is an example for running one sample.
